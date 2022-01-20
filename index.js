@@ -7,7 +7,7 @@ const urlMongoAtlas =
 mongoose.connect(urlMongoAtlas, (err, res) => {
   try {
     if (err) {
-      throw err;
+      throw error;
     } else {
       console.log("La conexión a la BD es correcta.");
 
