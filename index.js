@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 const app = require("./app");
-const port = 3000;
+const port = process.env.PORT || 3977;
 const urlMongoAtlas =
   "mongodb+srv://admin:admin123456@aitordb.9iypo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
